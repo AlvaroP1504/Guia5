@@ -26,7 +26,7 @@ public class Caso3 {
 		
 		Alumno alum2 = new Alumno("Rosa", "Flores", "F", 15);
 		
-// 		Forma 3: Crwear el objeto de tipo de alumno
+// 		Forma 3: Crear el objeto de tipo de alumno
 		
 		Alumno alum3 = null;
 		
@@ -39,7 +39,7 @@ public class Caso3 {
 		nom = sc.nextLine();
 		System.out.print("Apellido............:");
 		ape = sc.nextLine();
-		System.out.print("Género [M-F]............:");
+		System.out.print("GÃ©nero [M-F]............:");
 		gen = sc.nextLine();
 		System.out.print("Edad [15-30]............:");
 		ed = sc.nextInt();
@@ -56,7 +56,7 @@ public class Caso3 {
 		
 		String patron = "%-4s %-20s %-10s %-15s";
 		
-		System.out.println(String.format(patron, "N", "Nombres y Apellidos", "Género", "Estado"));
+		System.out.println(String.format(patron, "N", "Nombres y Apellidos", "GÃ©nero", "Estado"));
 		System.out.println(String.format(patron, "-", "-------------------", "------", "------"));
 		
 		for(int x = 0; x <arrAlumno.size();x++)
